@@ -21,5 +21,5 @@ const applyDelta = (target,delta) => {
         }, [...target]);
     return typeof(target)==="string" ? result.join("") : result;
 }
-const NanoDiff = { getDelta, applyDelta }
-export {getDelta,applyDelta, NanoDiff}
+const LittleDiff = { getDelta, applyDelta }
+export {getDelta,applyDelta, LittleDiff}

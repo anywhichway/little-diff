@@ -1,4 +1,4 @@
-# nano-diff
+# little-diff
 A tiny, lightning fast string and array get and apply diff library. The module file is less than 350 bytes compressed and gzipped.
 
 # Install
@@ -9,7 +9,7 @@ npm install nano-diff
 
 # Usage
 
-A browser build is available in the `dist` directory. Otherwise, use the `./index.js` module file which exports `getDelta`, `applyDelta`, and `NanoDiff` (which just has  `getDelta`, `applyDelta` as methods).
+A browser build is available in the `dist` directory. Otherwise, use the `./index.js` module file which exports `getDelta`, `applyDelta`, and `LittleDiff` (which just has  `getDelta`, `applyDelta` as methods).
 
 ## getDelta(source:string | Array, target:string | Array)
 

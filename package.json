@@ -1,0 +1,32 @@
+{
+  "name": "little-diff",
+  "version": "0.0.1",
+  "description": "A little (actually tiny) string and array get and apply diff library.",
+  "type": "module",
+  "source": "index.js",
+  "browser": "./dist/little-diff.js",
+  "scripts": {
+    "build": "parcel build",
+    "build-dev": "parcel watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anywhichway/little-diff.git"
+  },
+  "keywords": [
+    "diff",
+    "delta",
+    "version",
+    "control"
+  ],
+  "author": "Simon Y. Blackwell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anywhichway/little-diff/issues"
+  },
+  "homepage": "https://github.com/anywhichway/little-diff#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
