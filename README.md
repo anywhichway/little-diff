@@ -1,5 +1,8 @@
 # little-diff
-A tiny, lightning fast string and array get and apply diff library. The module file is less than 350 bytes compressed and gzipped.
+
+A tiny module to get a big difference.
+
+Lightning fast string and array get and apply diff library. The module file is less than 350 bytes compressed and gzipped.
 
 # Install
 
@@ -22,6 +25,8 @@ Applies the delta to return a target. The return type will be the same as the `s
 See the file `./exmaple.js`.
 
 # Release History (Reverse Chronological Order)
+
+2023-01-04 v1.0.0 ~~Added unit tests. Updated docs.~~
 
 2022-12-31 v0.0.1 Initial public release
 

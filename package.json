@@ -1,6 +1,6 @@
 {
   "name": "little-diff",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A little (actually tiny) string and array get and apply diff library.",
   "type": "module",
   "source": "index.js",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "parcel build",
     "build-dev": "parcel watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest --collectCoverage"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/anywhichway/little-diff#readme",
   "devDependencies": {
+    "jest": "^29.3.1",
     "parcel": "^2.8.2"
   }
 }
