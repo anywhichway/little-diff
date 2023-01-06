@@ -7,7 +7,7 @@ Lightning fast string and array get and apply diff library. The module file is l
 # Install
 
 ```
-npm install nano-diff
+npm install little-diff
 ```
 
 # Usage
@@ -25,6 +25,8 @@ Applies the delta to return a target. The return type will be the same as the `s
 See the file `./exmaple.js`.
 
 # Release History (Reverse Chronological Order)
+
+2023-01-05 v1.0.1 Updated docs
 
 2023-01-04 v1.0.0 ~~Added unit tests. Updated docs.~~
 
