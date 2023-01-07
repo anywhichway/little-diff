@@ -26,9 +26,11 @@ See the file `./exmaple.js`.
 
 # Release History (Reverse Chronological Order)
 
+2023-01-07 v1.0.2 Updated docs
+
 2023-01-05 v1.0.1 Updated docs
 
-2023-01-04 v1.0.0 ~~Added unit tests. Updated docs.~~
+2023-01-04 v1.0.0 Added unit tests. Updated docs.
 
 2022-12-31 v0.0.1 Initial public release
 
