@@ -26,6 +26,8 @@ See the file `./exmaple.js`.
 
 # Release History (Reverse Chronological Order)
 
+2023-01-09 v1.0.3 Added  "main": "index.js" to package.json since some dependency processing requires export or main.
+
 2023-01-07 v1.0.2 Updated docs
 
 2023-01-05 v1.0.1 Updated docs
