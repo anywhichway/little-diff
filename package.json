@@ -1,9 +1,9 @@
 {
   "name": "little-diff",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A little (actually tiny) string and array get and apply diff library.",
   "type": "module",
-  "source": "index.js",
+  "source": "./src/index.js",
   "main": "index.js",
   "browser": "./dist/little-diff.js",
   "scripts": {
